@@ -10,6 +10,5 @@ return;
 
 binary_tree_delete(tree->left);
 binary_tree_delete(tree->right);
-
-return tree;
+free(tree);
 }
